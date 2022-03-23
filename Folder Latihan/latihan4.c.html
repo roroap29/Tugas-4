@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#daftar").addClass("merahkungin");
+            $(".subdaftar").addClass("kuninghitam");
+        });
+    </script>
+    <style type="text/css">
+        .merahkuning{
+            color: red;
+            font-weight: bold;
+            background-color: yellow;
+            padding: 3px;
+        }
+        .kuninghitam{
+            color: blue;
+            background-color: green;
+        }
+    </style>
+    <title>Selector Name Tag</title>
+</head>
+<body>
+    <div>
+        <p>Paragraf pertama</p>
+    </div>
+    <div>
+        <ul id="daftar">
+            <li>Item 1</li>
+            <li class="subdaftar">Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>

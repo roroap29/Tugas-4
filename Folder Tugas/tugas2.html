@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas Nomor 2</title>
+    <!-- memanggil jquery -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        // menuliskan function yang akan dijalankan
+        $(document).ready(function () {
+            // melakukan perintah untuk dua kali klik pada div
+            $(".kotak").dblclick(function () {
+            // mengubah div agar mempunyai warna background merah setelah di klik dua kali
+            $(this).css({background:"red"});
+            });
+        });
+    </script>
+    <style type="text/css">
+    /* membuat css untuk div */
+    .kotak{
+           background: blue;
+           float: left;
+           width: 100px;
+           height: 100px;
+           margin: 10px;
+    }
+    </style>
+</head>
+<body>
+    <p> Klik 2x pada setiap kotak untuk merubah warna kotak </p>
+    <!-- memanggil div -->
+    <div class="kotak"></div>
+    <div class="kotak"></div>
+    <div class="kotak"></div>
+    <div class="kotak"></div>
+</body>
+</html>

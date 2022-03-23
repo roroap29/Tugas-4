@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas Nomor 1</title>
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".sembunyi").click(function() {$("#foto").hide("slow");
+                $(".tampil").click(function() {$("#foto").show("slow");
+                })
+                })
+            })
+            $(document).ready(function(){
+                $(".sembunyi2").click(function() {$("#foto2").hide("slow");
+                $(".tampil2").click(function() {$("#foto2").show("slow");
+                })
+                })
+            })
+            $(document).ready(function(){
+                $(".sembunyi3").click(function() {$("#foto3").hide("slow");
+                $(".tampil3").click(function() {$("#foto3").show("slow");
+                })
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button class="sembunyi">Sembunyikan</button>
+        <button class="tampil">Tampilkan</button>
+        <p><img id="foto" src="img/img1.jpg"></p>
+        <button class="sembunyi2">Sembunyikan</button>
+        <button class="tampil2">Tampilkan</button>
+        <p><img id="foto2" src="img/img2.jpg"></p>
+        <button class="sembunyi3">Sembunyikan</button>
+        <button class="tampil3">Tampilkan</button>
+        <p><img id="foto3" src="img/img3.jpg"></p>
+    </body>
+</html>
